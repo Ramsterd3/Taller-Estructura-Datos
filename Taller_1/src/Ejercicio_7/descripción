@@ -1,0 +1,5 @@
+En un banco, el sistema de atención al cliente debe manejar los turnos de manera
+ordenada. Para lograrlo, se empleará una LinkedList (String), la cual permitirá
+agregar clientes en la cola de espera, atender al primero en la lista y ofrecer una
+funcionalidad especial para insertar clientes con urgencia al inicio de la cola sin
+afectar el rendimiento.

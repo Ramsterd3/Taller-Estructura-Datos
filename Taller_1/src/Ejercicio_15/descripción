@@ -1,0 +1,4 @@
+Un directorio telefónico necesita almacenar nombres junto con sus respectivos
+números de teléfono y permitir búsquedas eficientes. Para este caso, se usará un
+HashMap, el cual asociará cada nombre con su número telefónico, posibilitando
+consultas rápidas y evitando duplicados.
