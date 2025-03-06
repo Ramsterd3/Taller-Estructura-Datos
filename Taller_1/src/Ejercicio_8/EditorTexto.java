@@ -11,7 +11,7 @@ public class EditorTexto {
     }
 
     public void escribir(String nuevoTexto) {
-        historial.add(contenidoActual); // Guardar el estado actual antes del cambio
+        historial.add(contenidoActual);
         contenidoActual = nuevoTexto;
     }
 
@@ -19,7 +19,7 @@ public class EditorTexto {
         if (!historial.isEmpty()) {
             contenidoActual = historial.remove(historial.size() - 1); // Recuperar el último estado guardado
         } else {
-            contenidoActual = ""; // Si no hay historial, dejar en blanco
+            contenidoActual = "";
         }
     }
 

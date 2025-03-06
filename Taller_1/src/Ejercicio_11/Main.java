@@ -6,11 +6,11 @@ public class Main {
         favoritos.agregarCancion("Bohemian Rhapsody");
         favoritos.agregarCancion("Stairway to Heaven");
         favoritos.agregarCancion("Imagine");
-        favoritos.agregarCancion("Bohemian Rhapsody"); // No se añade porque ya existe
+        favoritos.agregarCancion("Bohemian Rhapsody");
 
-        favoritos.mostrarFavoritos(); // Mantiene el orden y no permite duplicados
+        favoritos.mostrarFavoritos();
 
         favoritos.eliminarCancion("Imagine");
-        favoritos.mostrarFavoritos(); // "Imagine" eliminada
+        favoritos.mostrarFavoritos();
     }
 }

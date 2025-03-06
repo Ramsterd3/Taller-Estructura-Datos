@@ -20,7 +20,7 @@ public class PilaTipada {
             stack.push(element);
             return true;
         }
-        return false; // No se permite insertar si el tipo no coincide
+        return false;
     }
 
     public Object pop() {

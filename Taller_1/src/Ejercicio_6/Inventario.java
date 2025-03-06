@@ -8,17 +8,14 @@ import java.util.Comparator;
 public class Inventario {
 	private ArrayList<Producto> productos;
 
-    // Constructor
     public Inventario() {
         productos = new ArrayList<>();
     }
 
-    // Método para agregar un producto
     public void agregarProducto(Producto producto) {
         productos.add(producto);
     }
 
-    // Método para eliminar un producto agotado
     public void eliminarProducto(String codigo) {
         Iterator<Producto> iterator = productos.iterator();
         while (iterator.hasNext()) {
@@ -39,10 +36,9 @@ public class Inventario {
                 return producto;
             }
         }
-        return null;  // Si no se encuentra el producto
+        return null;
     }
 
-    // Método para listar los productos en orden alfabético
     public void listarAlfabeticamente() {
         Collections.sort(productos, new Comparator<Producto>() {
             @Override
@@ -53,7 +49,6 @@ public class Inventario {
         mostrarInventario();
     }
 
-    // Método para listar los productos por precio
     public void listarPorPrecio() {
         Collections.sort(productos, new Comparator<Producto>() {
             @Override
@@ -64,7 +59,6 @@ public class Inventario {
         mostrarInventario();
     }
 
-    // Método para mostrar todo el inventario
     public void mostrarInventario() {
         if (productos.isEmpty()) {
             System.out.println("El inventario está vacío.");

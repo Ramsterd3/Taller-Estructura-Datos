@@ -15,12 +15,10 @@ public class NoDuplicados {
 	        listaSinDuplicados.add("Piña");
 	        listaSinDuplicados.add("Lulo");
 	        listaSinDuplicados.add("Limon");
-	        listaSinDuplicados.add("Manzana"); // Este duplicado no será agregado
+	        listaSinDuplicados.add("Manzana");
 
-	        // Obtener un iterador para la lista
 	        Iterator<String> iterador = listaSinDuplicados.iterator();
 
-	        // Imprimir el contenido de la lista utilizando el iterador
 	        System.out.println("Contenido de la lista sin duplicados:");
 	        while (iterador.hasNext()) {
 	            System.out.println(iterador.next());

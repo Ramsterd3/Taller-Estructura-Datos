@@ -18,11 +18,11 @@ public class Tienda {
             System.out.print("Seleccione una opción: ");
             
             int opcion = scanner.nextInt();
-            scanner.nextLine();  // Limpiar el buffer de entrada
+            scanner.nextLine();
             
             switch (opcion) {
                 case 1:
-                    // Agregar un producto
+
                     System.out.print("Ingrese el código del producto: ");
                     String codigo = scanner.nextLine();
                     System.out.print("Ingrese el nombre del producto: ");
@@ -36,14 +36,12 @@ public class Tienda {
                     break;
                 
                 case 2:
-                    // Eliminar un producto
                     System.out.print("Ingrese el código del producto a eliminar: ");
                     String codigoEliminar = scanner.nextLine();
                     inventario.eliminarProducto(codigoEliminar);
                     break;
 
                 case 3:
-                    // Buscar un producto
                     System.out.print("Ingrese el código del producto a buscar: ");
                     String codigoBuscar = scanner.nextLine();
                     Producto encontrado = inventario.buscarProducto(codigoBuscar);
@@ -55,17 +53,14 @@ public class Tienda {
                     break;
 
                 case 4:
-                    // Listar inventario en orden alfabético
                     inventario.listarAlfabeticamente();
                     break;
 
                 case 5:
-                    // Listar inventario por precio
                     inventario.listarPorPrecio();
                     break;
 
                 case 6:
-                    // Salir
                     System.out.println("Saliendo del sistema...");
                     return;
 
