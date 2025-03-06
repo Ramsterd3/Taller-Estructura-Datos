@@ -1,0 +1,6 @@
+En una tienda se necesita una aplicación para gestionar el inventario de
+productos(codigo, nombre, precio), permitiendo agregar nuevos artículos, eliminar
+los que están agotados, buscar productos específicos y listar todo el inventario en
+orden alfabético y por orden de precio. Para ello, se utilizará una ArrayList, que
+ofrece acceso rápido a los elementos y permite su manipulación de manera
+eficiente.

@@ -1,0 +1,5 @@
+ En un hospital, los pacientes deben ser atendidos según la gravedad de su
+condición, con los más urgentes siendo tratados primero. Para manejar esto, se
+implementará una PriorityQueue, donde cada paciente será ingresado con un nivel
+de prioridad y el sistema garantizará que aquellos con mayor urgencia sean
+atendidos antes que los demás.
