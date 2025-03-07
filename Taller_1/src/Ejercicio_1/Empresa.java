@@ -1,4 +1,5 @@
 package Ejercicio_1;
+import java.util.TreeSet;
 
 class Empresa {
     private TreeSet<Producto> productos = new TreeSet<>();
@@ -13,7 +14,7 @@ class Empresa {
                 return p;
             }
         }
-        return null; // Retorna null si no se encuentra el producto
+        return null;
     }
 
     public void mostrarProductos() {
