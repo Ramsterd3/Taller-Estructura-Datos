@@ -15,9 +15,8 @@ public class GestionPacientes {
     }
 
     public Paciente atenderPaciente() {
-        return colaPacientes.poll(); // Atiende al paciente con mayor prioridad
+        return colaPacientes.poll();
     }
-
     public void mostrarPacientes() {
         System.out.println("Pacientes en espera:");
         for (Paciente p : colaPacientes) {

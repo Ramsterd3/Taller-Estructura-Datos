@@ -19,7 +19,6 @@ class Tarea implements Comparable<Tarea> {
         return prioridad;
     }
 
-    // Ordenamos de tal manera que las tareas con mayor prioridad (valor mayor) sean atendidas primero
     @Override
     public int compareTo(Tarea otra) {
         return Integer.compare(otra.prioridad, this.prioridad);

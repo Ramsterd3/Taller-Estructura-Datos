@@ -7,6 +7,5 @@ public class Main {
             historial.enviarMensaje("Mensaje " + i);
         }
 
-        historial.mostrarHistorial(); // Muestra solo los últimos 10 mensajes
-    }
+        historial.mostrarHistorial();
 }

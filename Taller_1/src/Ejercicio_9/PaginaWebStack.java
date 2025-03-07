@@ -33,9 +33,9 @@ public class PaginaWebStack {
         navegador.visitarPagina("www.youtube.com");
         
      
-        navegador.retroceder(); // Debería retroceder a youtube.com
-        navegador.retroceder(); // Debería retroceder a facebook.com
-        navegador.retroceder(); // Debería retroceder a google.com
-        navegador.retroceder(); // No hay más páginas para retroceder
+        navegador.retroceder();
+        navegador.retroceder();
+        navegador.retroceder();
+        navegador.retroceder();
     }
 }

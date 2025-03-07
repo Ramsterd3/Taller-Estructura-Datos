@@ -2,7 +2,7 @@ package Ejercicio_13;
 
 public class Paciente implements Comparable<Paciente> {
     private String nombre;
-    private int prioridad; // Entre menor el número, mayor la urgencia
+    private int prioridad;
 
     public Paciente(String nombre, int prioridad) {
         this.nombre = nombre;
