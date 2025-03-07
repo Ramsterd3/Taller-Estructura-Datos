@@ -13,7 +13,7 @@ public class HistorialMensajes {
 
     public void enviarMensaje(String mensaje) {
         if (historial.size() == LIMITE) {
-            historial.pollFirst();
+            historial.removeFirst(); // Elimina el mensaje más antiguo si se supera el límite
         }
         historial.addLast(mensaje);
     }

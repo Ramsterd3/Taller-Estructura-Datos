@@ -1,4 +1,5 @@
 package Ejercicio_14;
+
 public class Main {
     public static void main(String[] args) {
         HistorialMensajes historial = new HistorialMensajes();
@@ -8,4 +9,5 @@ public class Main {
         }
 
         historial.mostrarHistorial();
+    }
 }
